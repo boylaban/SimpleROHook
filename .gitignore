@@ -1,0 +1,38 @@
+## Global ##
+[Tt]humbs.db
+*.7z
+*.rar
+*.*zip
+
+## Injection ##
+Injection/versioninfo.h
+
+## Nuget Packages ##
+packages/
+
+## Visual Studio ##
+.vs/
+obj/
+ipch/
+[Bb]in
+*[Dd]ebug*/
+*[Rr]elease*/
+*.db
+*.obj
+*.sdf
+*.lib
+*.dll
+*.exe
+*.suo
+*.pdb
+*.aps
+*.ipch
+*.user
+*.vspscc
+*.opendb
+*.opensdf
+
+## Visual Studio Code ##
+.vscode/
+/.vscode
+/.vscode/*.json

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{6eced7ab-6ea6-4797-9bd1-75743cbd5603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{44cd2f75-ceea-40d0-8c6f-ea139b6568c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\FastFont">
+      <UniqueIdentifier>{ec981e33-4e83-44b8-9ddc-d149900f8e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\FastFont">
+      <UniqueIdentifier>{6b16db12-e221-4b04-a0e6-19a40bded639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\ro">
+      <UniqueIdentifier>{2169db81-8e32-4342-a369-a7ac160e5ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dll-Injection">
+      <UniqueIdentifier>{f00d55fe-ea5b-4c9e-8271-bf051342f785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dll-Injection">
+      <UniqueIdentifier>{edea7297-3860-4483-b62d-6c54972bea8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\ro\mouse.h">
+      <Filter>Header Files\Core\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ro\map.h">
+      <Filter>Header Files\Core\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ro\object.h">
+      <Filter>Header Files\Core\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ro\res.h">
+      <Filter>Header Files\Core\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ro\system.h">
+      <Filter>Header Files\Core\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ro\ui.h">
+      <Filter>Header Files\Core\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ro\unit.h">
+      <Filter>Header Files\Core\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ro\task.h">
+      <Filter>Header Files\Core\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\shared.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\RoCodeBind.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Header Files\Dll-Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyconsole.h">
+      <Filter>Header Files\Dll-Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxyHelper.h">
+      <Filter>Header Files\Dll-Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Dll-Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Dll-Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FastFont\CacheInfo.h">
+      <Filter>Header Files\Core\FastFont</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FastFont\FastFont.h">
+      <Filter>Header Files\Core\FastFont</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FastFont\SFastFont.h">
+      <Filter>Header Files\Core\FastFont</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxyIDirectDraw.h">
+      <Filter>Header Files\Dll-Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxyIDirectInput.h">
+      <Filter>Header Files\Dll-Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\PerformanceCounter.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SearchCode.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Dll-Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ro\packet.h">
+      <Filter>Header Files\Core\ro</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\RoCodeBind.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\Dll-Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyconsole.cpp">
+      <Filter>Source Files\Dll-Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Source Files\Dll-Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Dll-Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FastFont\CacheInfo.cpp">
+      <Filter>Source Files\Core\FastFont</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FastFont\FastFont.cpp">
+      <Filter>Source Files\Core\FastFont</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FastFont\SFastFont.cpp">
+      <Filter>Source Files\Core\FastFont</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxyIDirectDraw.cpp">
+      <Filter>Source Files\Dll-Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxyIDirectInput.cpp">
+      <Filter>Source Files\Dll-Injection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Injection.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
